@@ -1,0 +1,9 @@
+###################################
+弱联网计费版本1.2.2
+sdk包括：
+jar：mmsmsbilling1.2.2.jar（md5：674FE06D0AB329AABCD6FF2BFD9C385A）
+so：libsmsiap.so（md5：07C96BFF95826FBA2D9D9C6B3F585112）
+使用教程：
+	1.将libs目录下文件复制到android工程目录下即可
+注意事项：
+	1.如果您的工程目录下存在有armeabi-v7a的文件夹，请将sdk下面的libsmsiap.so也复制到您工程中armeabi-v7a文件夹下面。

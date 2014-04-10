@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.9">
+  <id>com.mmsns.ane</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+  
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>mmsnsbillingane.jar</nativeLibrary>
+        <initializer>com.mmsns.ane.MMSNSExtension</initializer>
+        <finalizer>com.mmsns.ane.MMSNSExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+    
+  </platforms>
+</extension>
